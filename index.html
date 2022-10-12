@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>'핫도그의 반란'</title>
+	<style type="text/css">
+		body{cursor: url();}
+		#mybody{width: 800px; margin: auto; background-image: url('hdc2.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
+		#hd1{width: 430px; height: 430px; display: block; position: absolute; top: 280px; left: 10px; opacity: 1;}
+		#hd2{width: 400px; height: 400px; display: block; position: absolute; top: 540px; left: 360px; opacity: 1;}
+		#hd3{width: 540px; height: 540px; display: block; position: absolute; top: 5px; left: 630px; opacity: 1;}
+		#hd4{width: 480px; height: 480px; display: block; position: absolute; top: 740px; left: 740px; opacity: 1;}
+		#hd5{width: 670px; height: 670px; display: block; position: absolute; top: 870px; left: 30px; opacity: 1;}
+		#hd6{width: 280px; height: 280px; display: block; position: absolute; top: 1390px; left: 800px; opacity: 1;}
+		#hd7{width: 480px; height: 480px; display: block; position: absolute; top: 80px; left: 0px; opacity: 0;}
+		#hd8{width: 270px; height: 270px; display: block; position: absolute; top: 120px; left: 680px; opacity: 0;}
+		#hd9{width: 225px; height: 400px; display: block; position: absolute; top: 540px; left: 420px; opacity: 0;}
+		#hd10{width: 450px; height: 510px; display: block; position: absolute; top: 760px; left: 740px; opacity: 0;}
+		#hd11{width: 320px; height: 320px; display: block; position: absolute; top: 1180px; left: 30px; opacity: 0;}
+		#hd12{width: 496px; height: 680px; display: block; position: absolute; top: 1390px; left: 580px; opacity: 0;}
+		#mgm{position: absolute; opacity: 0;}
+
+	
+
+	</style>
+</head>
+<body id="mybody">
+	<audio id="hdm1">
+		<source src="hdm1.mp3" type="audio/wav">
+	</audio>
+	<audio id="hdm2">
+		<source src="hdm2.mp3" type="audio/wav">
+	</audio>
+	<audio id="hdm3">
+		<source src="hdm3.mp3" type="audio/wav">
+	</audio>
+	<audio id="hdm4">
+		<source src="hdm4.mp3" type="audio/wav">
+	</audio>
+	<audio id="hdm5">
+		<source src="hdm5.mp3" type="audio/wav">
+	</audio>
+	<audio id="hdm6">
+		<source src="hdm6.mp3" type="audio/wav">
+	</audio>
+	<img src="hotdog1.gif" id="hd1" style="cursor: pointer;">
+	<img src="hotdog4.gif" id="hd2" style="cursor: pointer;">
+	<img src="hotdog6.gif" id="hd3" style="cursor: pointer;">
+	<img src="hotdog7.gif" id="hd4" style="cursor: pointer;">
+	<img src="hotdog8.gif" id="hd5" style="cursor: pointer;">
+	<img src="hotdog9.gif" id="hd6" style="cursor: pointer;">
+
+	<img src="hotdog3.gif" id="hd7">
+	<img src="hotdog11.gif" id="hd8">
+	<img src="hotdog2.gif" id="hd9">
+	<img src="hotdog5.gif" id="hd10">
+	<img src="hotdog10.gif" id="hd11">
+	<img src="hotdog12.gif" id="hd12">
+
+
+
+	<script type="text/javascript">
+
+		hd1.onclick = function() {
+			hd1.style.opacity = "0";
+			hd2.style.opacity = "0";
+			hd3.style.opacity = "0";
+			hd4.style.opacity = "0";
+			hd5.style.opacity = "0";
+			hd6.style.opacity = "0";
+
+			hd7.style.opacity = "1";
+			hd8.style.opacity = "0";
+			hd9.style.opacity = "0";
+			hd10.style.opacity = "0";
+			hd11.style.opacity = "0";
+			hd12.style.opacity = "0";
+
+			hdm1.play();
+		}
+
+		hd2.onclick = function() {
+			hd1.style.opacity = "0";
+			hd2.style.opacity = "0";
+			hd3.style.opacity = "0";
+			hd4.style.opacity = "0";
+			hd5.style.opacity = "0";
+			hd6.style.opacity = "0";
+
+			hd7.style.opacity = "0";
+			hd8.style.opacity = "0";
+			hd9.style.opacity = "1";
+			hd10.style.opacity = "0";
+			hd11.style.opacity = "0";
+			hd12.style.opacity = "0";
+
+			hdm3.play();
+		}
+
+		hd3.onclick = function() {
+			hd1.style.opacity = "0";
+			hd2.style.opacity = "0";
+			hd3.style.opacity = "0";
+			hd4.style.opacity = "0";
+			hd5.style.opacity = "0";
+			hd6.style.opacity = "0";
+
+			hd7.style.opacity = "0";
+			hd8.style.opacity = "1";
+			hd9.style.opacity = "0";
+			hd10.style.opacity = "0";
+			hd11.style.opacity = "0";
+			hd12.style.opacity = "0";
+
+			hdm2.play();
+		}
+
+		hd4.onclick = function() {
+			hd1.style.opacity = "0";
+			hd2.style.opacity = "0";
+			hd3.style.opacity = "0";
+			hd4.style.opacity = "0";
+			hd5.style.opacity = "0";
+			hd6.style.opacity = "0";
+
+			hd7.style.opacity = "0";
+			hd8.style.opacity = "0";
+			hd9.style.opacity = "0";
+			hd10.style.opacity = "1";
+			hd11.style.opacity = "0";
+			hd12.style.opacity = "0";
+
+			hdm4.play();
+		}
+
+		hd5.onclick = function() {
+			hd1.style.opacity = "0";
+			hd2.style.opacity = "0";
+			hd3.style.opacity = "0";
+			hd4.style.opacity = "0";
+			hd5.style.opacity = "0";
+			hd6.style.opacity = "0";
+
+			hd7.style.opacity = "0";
+			hd8.style.opacity = "0";
+			hd9.style.opacity = "0";
+			hd10.style.opacity = "0";
+			hd11.style.opacity = "1";
+			hd12.style.opacity = "0";
+
+			hdm5.play();
+		}
+
+		hd6.onclick = function() {
+			hd1.style.opacity = "0";
+			hd2.style.opacity = "0";
+			hd3.style.opacity = "0";
+			hd4.style.opacity = "0";
+			hd5.style.opacity = "0";
+			hd6.style.opacity = "0";
+
+			hd7.style.opacity = "0";
+			hd8.style.opacity = "0";
+			hd9.style.opacity = "0";
+			hd10.style.opacity = "0";
+			hd11.style.opacity = "0";
+			hd12.style.opacity = "1";
+
+			hdm6.play();
+		}
+	</script>
+</body>
+</html>
